@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@font-face {
+    font-family: ProductSans;
+    src: url('/build/assets/font/ProductSans-Regular.ttf') format('truetype');
+
+}
+
+@layer base{
+    html{
+        @apply font-primary;
+        @apply text-base;
+        @apply text-gray-500;
+        @apply scroll-smooth
+    }
+   
+    h1,h2,h3, h4{
+        @apply font-bold;
+    }
+    h1{
+        @apply text-5xl;
+        @apply leading-tight;
+    }
+    h2{
+        @apply text-4xl
+    }
+    h3{
+        @apply text-3xl
+    }
+    h4{
+        @apply text-2xl
+    }
+    p{
+        @apply text-xl
+    }
+    link{
+        @apply text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-4 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800
+    }
+
+#preloader{
+    background: #fff url('/build/assets/images/loader.gif') no-repeat center center;
+    background-size: 17%;
+    height: 100vh;
+    width: 100%;
+    position:fixed;
+    z-index: 100;
+}
+
+}

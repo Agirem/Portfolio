@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="./build/assets/css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="build/assets/images/logo_white.svg"
+      type="image/x-icon"
+    />
+    <title>Ousmane Meriga</title>
+  </head>
+  <body>
+<div id="preloader"></div>
+
+    <!-- navbar section -->
+    <section>
+      <nav
+        class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600"
+      >
+        <div
+          class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+        >
+          <a href="#" class="flex items-center">
+            <img
+              src="build/assets/images/logo_white.svg"
+              class="h-8 mr-2"
+              alt="Ousmane's Logo"
+            />
+            <span
+              class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"
+              >Ousmane Meriga</span
+            >
+          </a>
+          <div class="flex md:order-2">
+            <div
+              class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+              id="navbar-sticky"
+            >
+              <ul
+                class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+              >
+                <li>
+                  <a
+                    href="#home"
+                    class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
+                    aria-current="page"
+                    >Home</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#about"
+                    class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                    >About Me</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#services"
+                    class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                    >Services</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#toolbox"
+                    class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                    >Toolbox</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#portfolio"
+                    class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                    >Works</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#contact"
+                    class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <button
+              data-collapse-toggle="navbar-sticky"
+              type="button"
+              class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+              aria-controls="navbar-sticky"
+              aria-expanded="false"
+            >
+              <span class="sr-only">Open main menu</span>
+              <svg
+                class="w-5 h-5"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 17 14"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 1h15M1 7h15M1 13h15"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!-- hero Section -->
+    <section id="home" class="bg-slate-100 px-4 pt-10 mt-[5rem]">
+      <div class="flex flex-row flex-wrap justify-center items-center">
+        <div
+          class="flex flex-col items-start content-center justify-center lg:w-[485px] lg:pr-10"
+        >
+          <div class="flex flex-row">
+            <h1 class="mb-5">
+              Hey, I'm
+              <span class="text-blue-500  "
+                >Ousmane Meriga <span class="inline-flex mr-1"><img src="/build/assets/images/hand.svg" alt="hand icon"
+                  />
+                </span></span>
+                  
+            </h1>
+          </div>
+
+          <p class="leading-7 mb-5 text-start">
+            Junior web - mobile Developer, and UI/UX
+            Designer.
+          </p>
+
+          <a
+            href="#contact"
+            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-Bold rounded-lg text-sm p-12 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 font-bold"
+            >Hire Me</a
+          >
+        </div>
+
+        <div class="flex items-center justify-center lg:pl-8">
+          <img
+            src="/build/assets/images/photo.png"
+            alt="Photo_Ousmane"
+            height="180"
+            width="400"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="bg-blue-500 py-14 px-10">
+      <div
+        class="flex flex-row md:flex-col lg:flex-col flex-wrap justify-center items-center"
+      >
+        <div class="mb-5 md:mr-10 lg:mr-10">
+          <h2 class="font-bold text-white">About Me</h2>
+          <hr class="w-20 h-1 rounded-r-full bg-white" />
+        </div>
+        <div class="max-w-md lg:max-w-lg">
+          <p class="text-white text-base text-justify mb-5 md:text-lg">
+            Known as Agirem, I'm a Junior web - mobile Developer and UI/UX Designer with a passion for minimalist and responsive
+            design. I find listening to music while coding to be a great source
+            of inspiration for me.
+          </p>
+          <div class="flex flex-row items-center justify-center">
+            <a
+              href="#"
+              class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-Bold rounded-lg text-base px-9 py-2.5 text-center mr-4 md:mr-6 lg:mr-6 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              >Works</a
+            >
+            <a
+              href="#"
+              class="text-blue-500 bg-white hover:bg-blue-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-Bold rounded-lg text-base p-9 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 border"
+              >Download CV</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Services Section -->
+
+    <section id="services" class="bg-slate-100 py-14 px-10">
+      <div
+        class="flex flex-row md:flex-col lg:flex-col flex-wrap justify-center items-center"
+      >
+        <div class="mb-5 md:mr-10 lg:mr-10">
+          <h2 class="font-bold">
+            My <span class="text-blue-500">Services</span>
+          </h2>
+          <hr class="w-20 h-1 rounded-r-full bg-blue-400" />
+        </div>
+      </div>
+      <p class="text-base text-center mb-5 md:text-lg">
+        Don't hesitate to contact me if you need the following services ;)
+      </p>
+      <div class="flex flex-row flex-wrap items-center justify-center gap-6">
+        <div
+          class="flex flex-wrap bg-gradient-to-r from-blue-500 to-blue-700 w-96 md:max-w-5xl h-72 p-10 items-center rounded-xl shadow-2xl"
+        >
+          <div class="flex flex-row flex-wrap gap-3">
+            <div
+              class="rounded-full bg-white border-solid border-2 p-3 border-white"
+            >
+              <i
+                class="fa-solid fa-mobile-screen-button fa-xl"
+                style="color: #783dff"
+              ></i>
+            </div>
+            <div>
+              <h4 class="text-white">Mobile Development</h4>
+              <p class="text-white text-base">
+                Development of Android and iOS mobile applications.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex flex-wrap bg-gradient-to-r from-blue-500 to-blue-700 w-96 md:max-w-5xl h-72 p-10 items-center rounded-xl shadow-2xl"
+        >
+          <div class="flex flex-row flex-wrap gap-3">
+            <div
+              class="rounded-full bg-white border-solid border-2 p-3 border-white"
+            >
+              <i
+                class="fa-solid fa-laptop-code fa-xl"
+                style="color: #783dff"
+              ></i>
+            </div>
+            <div>
+              <h4 class="text-white">
+                Website and web application development
+              </h4>
+              <p class="text-white text-base">
+                Custom application development for businesses or individuals in
+                need.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex flex-wrap bg-gradient-to-r from-blue-500 to-blue-700 w-96 md:max-w-5xl h-72 p-10 items-center rounded-xl shadow-2xl"
+        >
+          <div class="flex flex-row flex-wrap gap-3">
+            <div
+              class="rounded-full bg-white border-solid border-2 p-3 border-white"
+            >
+              <i class="fa-solid fa-pen-nib fa-xl" style="color: #783dff"></i>
+            </div>
+            <div>
+              <h4 class="text-white">Graphic Design</h4>
+              <p class="text-white text-base">
+                making brands unique through a visual identity that
+                differentiates you from the competition.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex flex-wrap bg-gradient-to-r from-blue-500 to-blue-700 w-96 md:max-w-5xl h-72 p-10 items-center rounded-xl shadow-2xl"
+        >
+          <div class="flex flex-row flex-wrap gap-3">
+            <div
+              class="rounded-full bg-white border-solid border-2 p-3 border-white"
+            >
+              <i class="fa-brands fa-figma fa-xl" style="color: #783dff"></i>
+            </div>
+            <div>
+              <h4 class="text-white">UI/UX Design</h4>
+              <p class="text-white text-base">
+                design of attractive and ergonomic models and mock-ups for
+                websites and mobile applications.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- stacks Section -->
+    <section id="toolbox" class="bg-slate-50 py-14 px-10">
+      <div
+        class="flex flex-row md:flex-col lg:flex-col flex-wrap justify-center items-center"
+      >
+        <div class="mb-5 md:mr-10 lg:mr-10">
+          <h2 class="font-bold">
+            <span class="text-blue-500">Toolbox</span>
+          </h2>
+          <hr class="w-20 h-1 rounded-r-full bg-blue-400" />
+        </div>
+      </div>
+      <p class="text-base text-center mb-5 md:text-lg">
+        Here is the list of tools that I use most of the time to carry out my
+        work
+      </p>
+      <div class="flex flex-row flex-wrap items-center justify-center gap-6">
+        <img
+          src="https://github.com/CyrisXD/CyrisXD/raw/master/assets/TailwindCSS.png"
+          alt="TailwindCSS"
+        />
+        &nbsp;
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+          width="50"
+          height="50"
+        />
+
+        &nbsp;<img
+          src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/firebase/firebase-plain-wordmark.svg"
+          alt="Firebase"
+          width="50"
+          height="50"
+        />
+        &nbsp;<img
+          src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/vscode/vscode-original.svg"
+          alt="VSCode"
+          width="50"
+          height="50"
+        />
+        &nbsp;<img
+          src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/photoshop/photoshop-line.svg"
+          alt="Photoshop"
+          width="50"
+          height="50"
+        />
+        &nbsp;<img
+          src="https://github.com/CyrisXD/CyrisXD/raw/master/assets/Github.png"
+          alt="Github"
+        />
+        &nbsp;<img
+          src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/html5/html5-plain.svg"
+          alt="HTML5"
+          width="50"
+          height="50"
+        />
+        &nbsp;<img
+          src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/css3/css3-original.svg"
+          alt="CSS3"
+          width="50"
+          height="50"
+        />
+        &nbsp;<img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg"
+          height="50"
+          width="50"
+        />
+        &nbsp;<img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg"
+          height="50"
+          width="50"
+        />&nbsp;<img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+          height="50"
+          width="50"
+        />&nbsp;
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
+          height="50"
+          width="50"
+        />
+        &nbsp;<img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg"
+          height="50"
+          width="50"
+        />&nbsp;<img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-line.svg"
+          height="50"
+          width="50"
+        />&nbsp;
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
+          height="50"
+          width="50"
+        />
+        &nbsp;
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+          height="50"
+          width="50"
+        />
+      </div>
+    </section>
+
+    <!-- works Section -->
+    <section id="Portfolio" class="bg-slate-100 py-14 px-10">
+      <div
+        class="flex flex-row md:flex-col lg:flex-col flex-wrap justify-center items-center"
+      >
+        <div class="mb-5 md:mr-10 lg:mr-10">
+          <h2 class="font-bold">
+            Some of <span class="text-blue-500">my works</span>
+          </h2>
+          <hr class="w-20 h-1 rounded-r-full bg-blue-400" />
+        </div>
+      </div>
+    
+<div class="flex flex-row flex-wrap gap-3 items-start justify-center">
+
+  <div
+    class="max-w-sm bg-white border border-gray-200 rounded-lg shadow md:w-1/3 dark:bg-gray-800 dark:border-gray-700"
+  >
+    <a href="http://mtravler.000webhostapp.com/" target="_blank">
+      <img class="rounded-t-lg" src="/build/assets/images/mtravler_landing.jpg" alt="MyTravelr Landing Presentation " />
+    </a>
+    <div class="p-5">
+      
+        <h5
+          class="mb-2 text-2xl font-bold tracking-tight text-blue-500 dark:text-white"
+        >
+          MyTravelr Landing Page
+        </h5>
+      
+      <p
+        class="mb-3 font-normal text-base text-gray-700 dark:text-gray-400"
+      >
+      MyTravelr is a platform that allows you to book and pay for your bus tickets securely.
+      </p>
+      <div class="flex flex-row items-center justify-center">
+        <a
+          href="http://mtravler.000webhostapp.com/" target="_blank"
+          class="mr-2  inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+        >
+          Demo
+          <svg
+            class="w-3.5 h-3.5 ml-2"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 14 10"
+          > 
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 5h12m0 0L9 1m4 4L9 9"
+            />
+          </svg>
+        </a>
+        <div class="flex flex-row h-5">
+          <span class="bg-blue-100 text-blue-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full dark:bg-blue-900 dark:text-blue-300">HTML</span>
+          <span class="bg-yellow-100 text-yellow-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full dark:bg-yellow-900 dark:text-yellow-300">javascript</span>
+          <span class="bg-pink-100 text-pink-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full dark:bg-pink-900 dark:text-pink-300">SCSS</span>
+
+
+        </div>
+
+      </div>
+      
+    </div>
+  </div>
+
+  <div
+    class="max-w-sm bg-white border md:w-1/3 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+  >
+    <a href="https://www.busilience.org/" target="_blank">
+      <img class="rounded-t-lg" src="/build/assets/images/busilience.jpg" alt="busilience presentation" />
+    </a>
+    <div class="p-5">
+      <a href="#">
+        <h5
+          class="mb-2 text-2xl font-bold tracking-tight text-blue-500 dark:text-white"
+        >
+          Busilience
+        </h5>
+      </a>
+      <p
+        class="mb-3 font-normal text-base text-gray-700 dark:text-gray-400"
+      >
+      Busilience is a consulting firm, specializing in studies, management consulting, organization and strategy.
+      </p>
+      <div class="flex flex-row items-center justify-center">
+        <a
+          href="https://busilience.org" target="_blank"
+          class="mr-2  inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+        >
+          Demo
+          <svg
+            class="w-3.5 h-3.5 ml-2"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 14 10"
+          > 
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 5h12m0 0L9 1m4 4L9 9"
+            />
+          </svg>
+        </a>
+        <div class="flex flex-row h-5">
+          <span class="bg-blue-100 text-blue-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full dark:bg-blue-900 dark:text-blue-300">HTML</span>
+          <span class="bg-yellow-100 text-yellow-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full dark:bg-yellow-900 dark:text-yellow-300">javascript</span>
+          <span class="bg-indigo-100 text-indigo-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full dark:bg-indigo-900 dark:text-indigo-300">Bootstrap</span>
+
+        </div>
+
+      </div>
+      
+    </div>
+  </div>
+
+  <div
+    class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+  >
+    <a href="#" target="_blank">
+      <img class="rounded-t-lg" src="/build/assets/images/mtravler_booking.jpg" alt="MyTravelr booking presentation" />
+    </a>
+    <div class="p-5">
+      <a href="#">
+        <h5
+          class="mb-2 text-2xl font-bold tracking-tight text-blue-500 dark:text-white"
+        >
+          MyTravelr Booking System
+        </h5>
+      </a>
+      <p
+        class="mb-3 font-normal text-base text-gray-700 dark:text-gray-400"
+      >
+      MyTravelr is a platform that allows you to book and pay for your bus tickets securely.
+      </p>
+      <div class="flex flex-row items-center justify-center">
+        <a
+          href="#"
+          class="mr-2  inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-slate-400 rounded-lg dark:bg-blue-600"
+        >
+          Soon
+          
+        </a>
+        <div class="flex flex-row h-5">
+          <span class="bg-blue-100 text-blue-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full dark:bg-blue-900 dark:text-blue-300">PHP</span>
+          <span class="bg-yellow-100 text-yellow-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full dark:bg-yellow-900 dark:text-yellow-300">javascript</span>
+          <span class="bg-indigo-100 text-tailwind-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full dark:bg-tailwind-900 dark:text-tailwind-300">Tailwind</span>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div
+    class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+  >
+   
+      <img class="rounded-t-lg" src="/build/assets/images/addjey.png" alt="Addjey presentation" />
+    <div class="p-5">
+      <a href="https://addjey.agirem.cm" target="_blank">
+        <h5
+          class="mb-2 text-2xl font-bold tracking-tight text-blue-500 dark:text-white"
+        >
+          Addjey
+        </h5>
+      </a>
+      <p
+        class="mb-3 font-normal text-base text-gray-700 dark:text-gray-400"
+      >
+      Addjey is a random password generator that simplifies the task of creating unique passwords for each site you use.
+      </p>
+      <div class="flex flex-row items-center justify-center">
+        <a
+          href="http://mtravler.000webhostapp.com/" target="_blank"
+          class="mr-2  inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+        >
+          Demo
+          <svg
+            class="w-3.5 h-3.5 ml-2"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 14 10"
+          > 
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 5h12m0 0L9 1m4 4L9 9"
+            />
+          </svg>
+        </a>
+        <div class="flex flex-row h-5">
+          <span class="bg-blue-100 text-blue-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full dark:bg-blue-900 dark:text-blue-300">HTML</span>
+          <span class="bg-yellow-100 text-yellow-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full dark:bg-yellow-900 dark:text-yellow-300">javascript</span>
+          <span class="bg-indigo-100 text-tailwind-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full dark:bg-tailwind-900 dark:text-tailwind-300">Tailwind</span>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div
+    class=" w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+  >
+    <div class="p-10 flex items-center justify-center lg:w-full">
+      
+        <h1
+          class="mb-2 text-2xl font-bold tracking-tight  dark:text-white text-center"
+        >
+        More works for soon <span class="inline-flex"><img src="/build/assets/images/smile.svg" alt="Smiling Emoji" width="25"></span>
+        </h1>
+  
+      
+    </div>
+  </div>
+</div>
+    </section>
+
+<!-- footer section -->
+<footer id="contact">
+  <section class="bg-blue-500 p-8">
+    <div
+      class="flex flex-col sm:flex-row gap-7 md:gap-24 items-center justify-center"
+    >
+      <div>
+        <h4 class="text-white text-center mb-3">Contact Me</h4>
+        <div>
+          <ul>
+            <li class="mb-2">
+              <a class="text-white"
+                href="mailto:ousmane.meriga12@gmail.com"
+                ><i
+                  class="fa-solid fa-envelope fa-lg"
+                  style="color: #ffffff"
+                ></i>
+                ousmane.meriga12@gmail.com</a
+              >
+            </li>
+            <li>
+              <a class="text-white" href="tel:+237655515035"
+                ><i
+                  class="fa-brands fa-square-whatsapp fa-xl"
+                  style="color: #ffffff"
+                ></i>
+                +237 6 59 95 85 42</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+     
+      <div class="footer-rs">
+        <div class="footer-name">
+          <h4 class="text-white text-center mb-2">Follow me On</h4>
+        </div>
+        <div class="flex flex-row justify-center">
+          <!-- Replacer cette section par des div -->
+          <ul class="flex justify-center items-center">
+            <li class="mr-4">
+              <a target="_blank" href="https://www.facebook.com/profile.php?id=100088087696948"
+                ><i
+                  class="fa-brands fa-facebook-f fa-xl"
+                  style="color: #ffffff"
+                ></i
+              ></a>
+            </li>
+            <li class="mr-5">
+              <a target="_blank" href="https://twitter.com/agirem1"
+                ><i
+                  class="fa-brands fa-x-twitter fa-xl"
+                  style="color: #ffffff"
+                ></i
+              ></a>
+            </li>
+            <li class="mr-5">
+              <a target="_blank" href="https://www.instagram.com/agirem1"
+                ><i
+                  class="fa-brands fa-instagram fa-xl"
+                  style="color: #ffffff"
+                ></i
+              ></a>
+            </li>
+            <li class="mr-5">
+              <a target="_blank" href="https://www.linkedin.com/in/ousmane-meriga-259955171/"
+                ><i class="fa-brands fa-linkedin fa-xl" style="color: #ffffff;"></i></a>
+            </li>
+            <li>
+              <a target="_blank" href="https://github.com/Agirem"
+                ><i class="fa-brands fa-github fa-xl" style="color: #ffffff;"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="p-4 text-center">
+    <h6>&copy 2023, with <span class="inline-flex"><img src="/build/assets/images/red_heart.svg" alt="red heart icon" width="16"></span> by  <a class="text-blue-500 font-bold" href="#">Ousmane Meriga</a>, All Rights reserved.</h6>
+  </section>
+</footer>
+
+  </body>
+  <script
+    src="https://kit.fontawesome.com/8c83886095.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.1.1/flowbite.min.js"></script>
+  <script>
+    var loader = document.getElementById("preloader");
+    window.addEventListener("load", function(){
+      loader.style.display="none";
+    })
+  </script>
+</html>
