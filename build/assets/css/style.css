@@ -891,7 +891,7 @@ html {
   font-size: 1rem;
   line-height: 1.5rem;
   --tw-text-opacity: 1;
-  color: rgb(107 114 128 / var(--tw-text-opacity));
+  color: rgb(55 65 81 / var(--tw-text-opacity));
   scroll-behavior: smooth;
 }
 
@@ -1675,14 +1675,14 @@ link:focus {
   background-color: rgb(241 245 249 / var(--tw-bg-opacity));
 }
 
-.bg-slate-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(148 163 184 / var(--tw-bg-opacity));
-}
-
 .bg-slate-50 {
   --tw-bg-opacity: 1;
   background-color: rgb(248 250 252 / var(--tw-bg-opacity));
+}
+
+.bg-slate-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
 }
 
 .bg-white {
@@ -2029,6 +2029,8 @@ link:focus {
   font-family: ProductSans;
 
   src: url('/build/assets/font/ProductSans-Regular.ttf') format('truetype');
+
+  font-display : swap;
 }
 
 .hover\:border-gray-300:hover {

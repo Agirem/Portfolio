@@ -7,6 +7,7 @@
 @font-face {
     font-family: ProductSans;
     src: url('/build/assets/font/ProductSans-Regular.ttf') format('truetype');
+    font-display : swap;
 
 }
 
@@ -14,7 +15,7 @@
     html{
         @apply font-primary;
         @apply text-base;
-        @apply text-gray-500;
+        @apply text-gray-700;
         @apply scroll-smooth
     }
    
